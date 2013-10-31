@@ -8,8 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
+#import "MNScriptLoader.h"
 
 @interface MobileNode : NSObject
+
+@property (nonatomic) NSMutableArray* onLoadBlocks;
+@property (nonatomic) NSMutableDictionary* functions;
+@property (nonatomic) JSContext* context;
+@property (nonatomic) MNScriptLoader *loader;
 
 // Create a mobilenode execution environment with default options
 +(void)go;
@@ -31,5 +37,8 @@
 
 // Log a message to the console (dev mode)
 +(void)log:(NSString*)message;
+
+// Lifcycle: A script is about to load.  src is the browserified source code to be eval'ed 
++(void)scriptWillLoad:(void(^)(NSString* src))block;
 
 @end

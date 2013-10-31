@@ -11,4 +11,8 @@
 @interface MNLoggerModule : NSObject
 // Initialize and subscribe for JS event
 +(void)init;
+
+// Log a message to both JS and NSlog
++(void)log:(NSString*)msg level:(NSString*)levelOrNil;
+
 @end

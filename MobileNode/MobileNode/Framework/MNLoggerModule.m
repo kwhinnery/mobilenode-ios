@@ -12,13 +12,21 @@
 
 @implementation MNLoggerModule
 
++(void)log:(NSString*)msg level:(NSString*)levelOrNil
+{
+    if (!levelOrNil) {
+        levelOrNil = @"INFO";
+    }
+    NSString *message = [NSString stringWithFormat:@"[%@]: %@", levelOrNil, msg];
+    NSLog(@"%@", message);
+    [MobileNode log:message];
+}
+
 +(void)init
 {
     // Define a function, callable from JS, which logs a message to the console
     [MobileNode defineFunction:@"log" withBlock:(id)^(NSDictionary* data) {
-        NSString *message = [NSString stringWithFormat:@"[%@]: %@", [data objectForKey:@"level"], [data objectForKey:@"message"]];
-        NSLog(@"%@", message);
-        [MobileNode log:message];
+        [MNLoggerModule log:[data objectForKey:@"message"] level:[data objectForKey:@"level"]];
     }];
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "MobileNode.h"
+#import "MNLoggerModule.h"
 #import "MNScriptLoader.h"
 #import "SRWebSocket.h"
 
