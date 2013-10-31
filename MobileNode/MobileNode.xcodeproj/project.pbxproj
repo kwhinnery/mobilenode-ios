@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC6C7AD181EFA5F009485DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC6C7AC181EFA5F009485DD /* Foundation.framework */; };
+		0AC6C7AF181EFA5F009485DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC6C7AE181EFA5F009485DD /* CoreGraphics.framework */; };
+		0AC6C7B1181EFA5F009485DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC6C7B0181EFA5F009485DD /* UIKit.framework */; };
+		0AC6C7B7181EFA5F009485DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6C7B5181EFA5F009485DD /* InfoPlist.strings */; };
+		0AC6C7B9181EFA5F009485DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6C7B8181EFA5F009485DD /* main.m */; };
+		0AC6C7BD181EFA5F009485DD /* MNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6C7BC181EFA5F009485DD /* MNAppDelegate.m */; };
+		0AC6C7BF181EFA5F009485DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6C7BE181EFA5F009485DD /* Images.xcassets */; };
+		0AC6C7C6181EFA5F009485DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC6C7C5181EFA5F009485DD /* XCTest.framework */; };
+		0AC6C7C7181EFA5F009485DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC6C7AC181EFA5F009485DD /* Foundation.framework */; };
+		0AC6C7C8181EFA5F009485DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC6C7B0181EFA5F009485DD /* UIKit.framework */; };
+		0AC6C7D0181EFA5F009485DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6C7CE181EFA5F009485DD /* InfoPlist.strings */; };
+		0AC6C7D2181EFA5F009485DD /* MobileNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC6C7D1181EFA5F009485DD /* MobileNodeTests.m */; };
+		0AF2754418215ACD00E61DE9 /* MNAlertModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2753C18215ACD00E61DE9 /* MNAlertModule.m */; };
+		0AF2754618215ACD00E61DE9 /* MNLoggerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2753F18215ACD00E61DE9 /* MNLoggerModule.m */; };
+		0AF2754718215ACD00E61DE9 /* MNScriptLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2754118215ACD00E61DE9 /* MNScriptLoader.m */; };
+		0AF2754818215ACD00E61DE9 /* MobileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2754318215ACD00E61DE9 /* MobileNode.m */; };
+		0AF2754A18215E6A00E61DE9 /* mnbootstrap.js in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2753D18215ACD00E61DE9 /* mnbootstrap.js */; };
+		429662A34BC24B21A09385F3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C789068DF4944B5EA6833397 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AC6C7C9181EFA5F009485DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC6C7A1181EFA5F009485DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC6C7A8181EFA5F009485DD;
+			remoteInfo = MobileNode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC6C7A9181EFA5F009485DD /* MobileNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC6C7AC181EFA5F009485DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AC6C7AE181EFA5F009485DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AC6C7B0181EFA5F009485DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AC6C7B4181EFA5F009485DD /* MobileNode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileNode-Info.plist"; sourceTree = "<group>"; };
+		0AC6C7B6181EFA5F009485DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AC6C7B8181EFA5F009485DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AC6C7BA181EFA5F009485DD /* MobileNode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileNode-Prefix.pch"; sourceTree = "<group>"; };
+		0AC6C7BB181EFA5F009485DD /* MNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNAppDelegate.h; sourceTree = "<group>"; };
+		0AC6C7BC181EFA5F009485DD /* MNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNAppDelegate.m; sourceTree = "<group>"; };
+		0AC6C7BE181EFA5F009485DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0AC6C7C4181EFA5F009485DD /* MobileNodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileNodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC6C7C5181EFA5F009485DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0AC6C7CD181EFA5F009485DD /* MobileNodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileNodeTests-Info.plist"; sourceTree = "<group>"; };
+		0AC6C7CF181EFA5F009485DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AC6C7D1181EFA5F009485DD /* MobileNodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileNodeTests.m; sourceTree = "<group>"; };
+		0AF2753B18215ACD00E61DE9 /* MNAlertModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNAlertModule.h; sourceTree = "<group>"; };
+		0AF2753C18215ACD00E61DE9 /* MNAlertModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNAlertModule.m; sourceTree = "<group>"; };
+		0AF2753D18215ACD00E61DE9 /* mnbootstrap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mnbootstrap.js; sourceTree = "<group>"; };
+		0AF2753E18215ACD00E61DE9 /* MNLoggerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLoggerModule.h; sourceTree = "<group>"; };
+		0AF2753F18215ACD00E61DE9 /* MNLoggerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLoggerModule.m; sourceTree = "<group>"; };
+		0AF2754018215ACD00E61DE9 /* MNScriptLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNScriptLoader.h; sourceTree = "<group>"; };
+		0AF2754118215ACD00E61DE9 /* MNScriptLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNScriptLoader.m; sourceTree = "<group>"; };
+		0AF2754218215ACD00E61DE9 /* MobileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileNode.h; sourceTree = "<group>"; };
+		0AF2754318215ACD00E61DE9 /* MobileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileNode.m; sourceTree = "<group>"; };
+		C789068DF4944B5EA6833397 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B24534706C4E9690CED71A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC6C7A6181EFA5F009485DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC6C7AF181EFA5F009485DD /* CoreGraphics.framework in Frameworks */,
+				0AC6C7B1181EFA5F009485DD /* UIKit.framework in Frameworks */,
+				0AC6C7AD181EFA5F009485DD /* Foundation.framework in Frameworks */,
+				429662A34BC24B21A09385F3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC6C7C1181EFA5F009485DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC6C7C6181EFA5F009485DD /* XCTest.framework in Frameworks */,
+				0AC6C7C8181EFA5F009485DD /* UIKit.framework in Frameworks */,
+				0AC6C7C7181EFA5F009485DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A214FA31821AA3600B3DE4D /* Standard Library */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2753B18215ACD00E61DE9 /* MNAlertModule.h */,
+				0AF2753C18215ACD00E61DE9 /* MNAlertModule.m */,
+				0AF2753E18215ACD00E61DE9 /* MNLoggerModule.h */,
+				0AF2753F18215ACD00E61DE9 /* MNLoggerModule.m */,
+			);
+			name = "Standard Library";
+			sourceTree = "<group>";
+		};
+		0AC6C7A0181EFA5F009485DD = {
+			isa = PBXGroup;
+			children = (
+				0AF2753A18215A8F00E61DE9 /* Framework */,
+				0AC6C7B2181EFA5F009485DD /* MobileNode App */,
+				0AC6C7CB181EFA5F009485DD /* MobileNodeTests */,
+				0AC6C7AB181EFA5F009485DD /* Frameworks */,
+				0AC6C7AA181EFA5F009485DD /* Products */,
+				E4B24534706C4E9690CED71A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC6C7AA181EFA5F009485DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC6C7A9181EFA5F009485DD /* MobileNode.app */,
+				0AC6C7C4181EFA5F009485DD /* MobileNodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC6C7AB181EFA5F009485DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC6C7AC181EFA5F009485DD /* Foundation.framework */,
+				0AC6C7AE181EFA5F009485DD /* CoreGraphics.framework */,
+				0AC6C7B0181EFA5F009485DD /* UIKit.framework */,
+				0AC6C7C5181EFA5F009485DD /* XCTest.framework */,
+				C789068DF4944B5EA6833397 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AC6C7B2181EFA5F009485DD /* MobileNode App */ = {
+			isa = PBXGroup;
+			children = (
+				0AC6C7BB181EFA5F009485DD /* MNAppDelegate.h */,
+				0AC6C7BC181EFA5F009485DD /* MNAppDelegate.m */,
+				0AC6C7BE181EFA5F009485DD /* Images.xcassets */,
+				0AC6C7B3181EFA5F009485DD /* Supporting Files */,
+			);
+			name = "MobileNode App";
+			path = MobileNode;
+			sourceTree = "<group>";
+		};
+		0AC6C7B3181EFA5F009485DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AC6C7B4181EFA5F009485DD /* MobileNode-Info.plist */,
+				0AC6C7B5181EFA5F009485DD /* InfoPlist.strings */,
+				0AC6C7B8181EFA5F009485DD /* main.m */,
+				0AC6C7BA181EFA5F009485DD /* MobileNode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AC6C7CB181EFA5F009485DD /* MobileNodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC6C7D1181EFA5F009485DD /* MobileNodeTests.m */,
+				0AC6C7CC181EFA5F009485DD /* Supporting Files */,
+			);
+			path = MobileNodeTests;
+			sourceTree = "<group>";
+		};
+		0AC6C7CC181EFA5F009485DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AC6C7CD181EFA5F009485DD /* MobileNodeTests-Info.plist */,
+				0AC6C7CE181EFA5F009485DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF2753A18215A8F00E61DE9 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0A214FA31821AA3600B3DE4D /* Standard Library */,
+				0AF2753D18215ACD00E61DE9 /* mnbootstrap.js */,
+				0AF2754018215ACD00E61DE9 /* MNScriptLoader.h */,
+				0AF2754118215ACD00E61DE9 /* MNScriptLoader.m */,
+				0AF2754218215ACD00E61DE9 /* MobileNode.h */,
+				0AF2754318215ACD00E61DE9 /* MobileNode.m */,
+			);
+			name = Framework;
+			path = MobileNode/Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC6C7A8181EFA5F009485DD /* MobileNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC6C7D5181EFA5F009485DD /* Build configuration list for PBXNativeTarget "MobileNode" */;
+			buildPhases = (
+				FF26C8EA43C543159710F5D4 /* Check Pods Manifest.lock */,
+				0AC6C7A5181EFA5F009485DD /* Sources */,
+				0AC6C7A6181EFA5F009485DD /* Frameworks */,
+				0AC6C7A7181EFA5F009485DD /* Resources */,
+				5A955140D01B4B64B9A389A2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileNode;
+			productName = MobileNode;
+			productReference = 0AC6C7A9181EFA5F009485DD /* MobileNode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AC6C7C3181EFA5F009485DD /* MobileNodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC6C7D8181EFA5F009485DD /* Build configuration list for PBXNativeTarget "MobileNodeTests" */;
+			buildPhases = (
+				0AC6C7C0181EFA5F009485DD /* Sources */,
+				0AC6C7C1181EFA5F009485DD /* Frameworks */,
+				0AC6C7C2181EFA5F009485DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC6C7CA181EFA5F009485DD /* PBXTargetDependency */,
+			);
+			name = MobileNodeTests;
+			productName = MobileNodeTests;
+			productReference = 0AC6C7C4181EFA5F009485DD /* MobileNodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC6C7A1181EFA5F009485DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kevin Whinnery";
+				TargetAttributes = {
+					0AC6C7C3181EFA5F009485DD = {
+						TestTargetID = 0AC6C7A8181EFA5F009485DD;
+					};
+				};
+			};
+			buildConfigurationList = 0AC6C7A4181EFA5F009485DD /* Build configuration list for PBXProject "MobileNode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AC6C7A0181EFA5F009485DD;
+			productRefGroup = 0AC6C7AA181EFA5F009485DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC6C7A8181EFA5F009485DD /* MobileNode */,
+				0AC6C7C3181EFA5F009485DD /* MobileNodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AC6C7A7181EFA5F009485DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF2754A18215E6A00E61DE9 /* mnbootstrap.js in Resources */,
+				0AC6C7B7181EFA5F009485DD /* InfoPlist.strings in Resources */,
+				0AC6C7BF181EFA5F009485DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC6C7C2181EFA5F009485DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC6C7D0181EFA5F009485DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A955140D01B4B64B9A389A2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF26C8EA43C543159710F5D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC6C7A5181EFA5F009485DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF2754618215ACD00E61DE9 /* MNLoggerModule.m in Sources */,
+				0AF2754818215ACD00E61DE9 /* MobileNode.m in Sources */,
+				0AC6C7B9181EFA5F009485DD /* main.m in Sources */,
+				0AF2754418215ACD00E61DE9 /* MNAlertModule.m in Sources */,
+				0AF2754718215ACD00E61DE9 /* MNScriptLoader.m in Sources */,
+				0AC6C7BD181EFA5F009485DD /* MNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC6C7C0181EFA5F009485DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC6C7D2181EFA5F009485DD /* MobileNodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AC6C7CA181EFA5F009485DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC6C7A8181EFA5F009485DD /* MobileNode */;
+			targetProxy = 0AC6C7C9181EFA5F009485DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AC6C7B5181EFA5F009485DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC6C7B6181EFA5F009485DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AC6C7CE181EFA5F009485DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC6C7CF181EFA5F009485DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AC6C7D3181EFA5F009485DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AC6C7D4181EFA5F009485DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AC6C7D6181EFA5F009485DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B24534706C4E9690CED71A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileNode/MobileNode-Prefix.pch";
+				INFOPLIST_FILE = "MobileNode/MobileNode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AC6C7D7181EFA5F009485DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B24534706C4E9690CED71A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileNode/MobileNode-Prefix.pch";
+				INFOPLIST_FILE = "MobileNode/MobileNode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0AC6C7D9181EFA5F009485DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobileNode.app/MobileNode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileNode/MobileNode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MobileNodeTests/MobileNodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0AC6C7DA181EFA5F009485DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobileNode.app/MobileNode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileNode/MobileNode-Prefix.pch";
+				INFOPLIST_FILE = "MobileNodeTests/MobileNodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC6C7A4181EFA5F009485DD /* Build configuration list for PBXProject "MobileNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC6C7D3181EFA5F009485DD /* Debug */,
+				0AC6C7D4181EFA5F009485DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC6C7D5181EFA5F009485DD /* Build configuration list for PBXNativeTarget "MobileNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC6C7D6181EFA5F009485DD /* Debug */,
+				0AC6C7D7181EFA5F009485DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC6C7D8181EFA5F009485DD /* Build configuration list for PBXNativeTarget "MobileNodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC6C7D9181EFA5F009485DD /* Debug */,
+				0AC6C7DA181EFA5F009485DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC6C7A1181EFA5F009485DD /* Project object */;
+}
