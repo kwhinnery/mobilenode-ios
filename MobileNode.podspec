@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.resource = 'MobileNode/MobileNode/Framework/mnbootstrap.js'
   s.framework  = 'JavaScriptCore'
   s.requires_arc = true
-  s.dependency 'socket.IO', '~> 0.4.0'
+  s.dependency 'SocketRocket', '0.3.1-beta2'
 
 end
