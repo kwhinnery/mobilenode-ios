@@ -23,7 +23,7 @@ pod 'MobileNode', :git => 'git://github.com/kwhinnery/mobilenode-ios'
 ~~~
 
 * Run `pod install`
-* Open the Cocoapods-enabled Xcode __Workspace__ (use this from now on): `open *xcworkspace`
+* Open the Cocoapods-enabled Xcode __Workspace__ (use this from now on): `open *xcworkspace` (You may need to quit Xcode first - Xcode is an a-hole sometimes)
 
 #### The node part
 * Install [node.js](http://nodejs.org/)
