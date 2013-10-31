@@ -16,10 +16,12 @@ MobileNode requires that your native iOS project be using Cocoapods.  To create 
 * Create an iOS project through Xcode
 * Navigate to the location of the `.xcodeproj` folder Xcode created in the Terminal
 * Create a file called `Podfile` with the following:
+
 ~~~
 platform :ios, '7.0'
 pod 'MobileNode', :git => 'git://github.com/kwhinnery/MobileNodeiOS'
 ~~~
+
 * Run `pod install`
 * Open the Cocoapods-enabled Xcode __Workspace__ (use this from now on): `open *xcworkspace`
 
