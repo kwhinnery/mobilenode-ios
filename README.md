@@ -19,7 +19,7 @@ MobileNode requires that your native iOS project be using Cocoapods.  To create 
 
 ~~~
 platform :ios, '7.0'
-pod 'MobileNode', :git => 'git://github.com/kwhinnery/MobileNodeiOS'
+pod 'MobileNode', :git => 'git://github.com/kwhinnery/mobilenode-ios'
 ~~~
 
 * Run `pod install`
