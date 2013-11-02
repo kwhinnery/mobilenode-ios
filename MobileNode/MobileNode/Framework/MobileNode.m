@@ -19,13 +19,18 @@
 // Our single MobileNode environment
 static MobileNode *singleton;
 
-// Initialize from zero
-+(void)start:(NSString*)filename loadScriptFromBundle:(BOOL)load
++(void)initialize
 {
     if (!singleton) {
         singleton = [[MobileNode alloc] init];
     }
-    
+    singleton.functions = [[NSMutableDictionary alloc] init];
+    singleton.onLoadBlocks = [[NSMutableArray alloc] init];
+}
+
+// Initialize from zero
++(void)start:(NSString*)filename loadScriptFromBundle:(BOOL)load
+{
     // Create a new context
     singleton.context = [[JSContext alloc] init];
     
@@ -70,10 +75,6 @@ static MobileNode *singleton;
         JSValue *bootstrapResult = [singleton.context evaluateScript:bootstrap];
         NSLog(@"[MobileNode]: bootstrapped with result (undefined expected): %@", bootstrapResult);
     }
-    
-    // Create persistent store of functions callable from JS and other ivars for singleton
-    singleton.functions = [[NSMutableDictionary alloc] init];
-    singleton.onLoadBlocks = [[NSMutableArray alloc] init];
     
     // Load native standard library functions
     [MNAlertModule init];
